@@ -1,9 +1,9 @@
 #ifndef _J2K_H_
 #define _J2K_H_
 
-#include <boost\optional\optional.hpp>
-#include <boost\shared_ptr.hpp>
-#include <boost\foreach.hpp>
+#include <boost/optional/optional.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 #include <exception>
 #include <string>
 #include <vector>

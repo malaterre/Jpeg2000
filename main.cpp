@@ -1,4 +1,4 @@
-#include  <iostream>
+#include <iostream>
 #include <fstream>
 #include "j2k.h"
 #include "j2p.h"
@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	ErrorCode errorCode;
 
 	J2KFile jpeg;
-	errorCode = jpeg.loadFile("e:\\bretagne1.j2k");
+	errorCode = jpeg.loadFile("Bretagne1.j2k");
 	
 	if (errorCode == SUCCESS)
 	{
@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 		(jpeg.tiles.begin() + 2)->Isot = 0;
 		(jpeg.tiles.begin() + 3)->Isot = 1;
 
-		jpeg.saveFile("e:\\clone.j2k");
+		jpeg.saveFile("clone.j2k");
 	}
 
 	return 0;

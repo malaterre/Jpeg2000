@@ -1,9 +1,9 @@
 #ifndef _J2P_H_
 #define _J2P_H_
 
-#include <boost\cstdint.hpp>
-#include <boost\shared_ptr.hpp>
-#include <boost\foreach.hpp>
+#include <boost/cstdint.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 #include <vector>
 #include <string>
 #include "common.h"
